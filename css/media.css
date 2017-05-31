@@ -1,0 +1,165 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	footer span {
+		margin-left: 0;
+	}
+
+	.social {
+		text-align: center;
+	}
+
+	.copyright {
+		text-align: center;
+	}
+	.portfolio .main_portfolio .view:hover img {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+		}
+		/* line 152, ../sass/screen.scss */
+	.portfolio .main_portfolio .view:hover .mask {
+		opacity: 0;
+	}
+
+}
+
+@media only screen and (max-width : 630px) {
+	
+	.banner h1 {
+		border-bottom: 2px solid #15a4fa;
+	}
+	.banner span {
+		border-top: none;
+	}
+	.forma form input {
+		width: 400px;
+	}
+	.forma form textarea {
+		width: 400px;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.banner h1 {
+		font-size: 100px;
+	}
+	.banner span {
+		font-size: 18px;
+		padding: 5px;
+	}
+	.forma form input {
+		width: 290px;
+		height: 45px
+	}
+	.forma form textarea {
+		width: 290px;
+		height: 145px
+	}
+}
+
+@media only screen and (max-width : 380px) {
+	.banner h1 {
+		font-size: 80px;
+	}
+	.banner span {
+		font-size: 15px;
+	}
+	.design .design_text h2 {
+	  font-size: 30px;
+	}
+	.portfolio .portfolio_tittle h3 {
+	  font-size: 30px;
+	}
+	/* line 101, ../sass/screen.scss */
+	.portfolio .portfolio_tittle span {
+	  font-size: 17px;
+	  color: #999999;
+	}
+	.forma form input {
+		width: 250px;
+		height: 45px;
+	}
+	.forma form textarea {
+		width: 250px;
+		height: 145px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+@media screen and (min-width : 320px) and (max-width: 480px) {
+
+}
