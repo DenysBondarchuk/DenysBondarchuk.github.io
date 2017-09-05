@@ -2,143 +2,209 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Phototime</title>
+        <title>Strict</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="img/logotip.png" type="image/png">
+        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/font-awesome.css">  
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Lato">
-        <link rel="stylesheet" href="libs/slick/slick.css"/>
-        <link rel="stylesheet" href="libs/slick/slick-theme.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="libs/animate/animate.min.css">  
+        <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />  
         <link rel="stylesheet" href="sass/screen.scss">
         <link rel="stylesheet" href="css/screen.css"> 
         <link rel="stylesheet" href="css/media.css">    
     </head>
+
     <body>
+
+		<div class="loaderArea">
+			<div class="loader"></div>
+		</div>
+
         <header>
             <div class="container">
-                <div class="fw">
-                    <nav class="top_menu">
-                        <div class="mobile_top">
-                            <div class="mobile_logo">
-                                <img src="img/logo.png" alt="logo">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#"><img src="img/logo.png"></a>
+                    </div>
+                </div>
+            </div>
+        </header>	
+
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h1>Strict</h1>
+                        <span>STRICT is a responsive theme with a clean and minimal look.</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <a href="#" class="btn">Call to action</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="design">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 design_text">
+                            <h2>Simple & pure design.</h2>
+                            <span>Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, it's so clean!". There are a countless number of webdesign round-ups dedicated to 'clean' design and it is a term thrown around quite a bit in the web design community. It can be easy to spot a good example of clean design.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       	
+        <section>
+            <div class="feature">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 icon1">
+                            <img src="img/icon1.png"><br>
+                            <span>Optimized for all devices</span>
+                            <p>STRICT has been designed to be fully responsive on all devices</p>
+                        </div>
+                        <div class="col-md-4 col-sm-4 icon2">
+                            <img src="img/icon2.png"><br>
+                            <span>Clean & Minimal Design</span>
+                            <p>This multipurpose theme is especially created to be used for different projects.</p>
+                        </div>
+                        <div class="col-md-4 col-sm-4 icon3">
+                            <img src="img/icon3.png"><br>
+                            <span>Font Awesome Icon</span>
+                            <p>This multipurpose theme is especially created to be used for different projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="portfolio_tittle">
+                                <h3>Showcase your work like a pro.</h3>
+                                <span> Contact me if you like my work</span>
                             </div>
-                            <div class="mobile_menu">
-                                <a href="#" class="menu_trigger"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="row main_portfolio">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="view">
+                                <img src="img/portfolio1.png">
+                                <div class="mask">
+                                    <a class="popup" href="img/popup1.png"></a>
+                                </div>
                             </div>
                         </div>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Photoapp</a></li>
-                            <li class="desktop_logo"><img src="img/logo.png" alt="logo"></li>
-                            <li><a href="#">Design</a></li>
-                            <li><a href="#">Download</a></li>
-                        </ul>
-                    </nav>
-                    <div class="title">
-                        <h1>Your life, a photo</h1>
-                        <p>print your life in a simple photo</p>
-                        <div class="btn">
-                            <a href="#" class="btn">get started</a>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="view">
+                                <img src="img/portfolio2.png">
+                                <div class="mask">
+                                    <a class="popup" href="img/popup2.png"></a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="social">
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-flickr" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>       
-                    </div>
-                </div>
-            </div>
-        </header>
-        <section class="second">
-            <div class="container">
-                <div class="rapresent">
-                    <h4>Rappresent your life with a simple photo</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua. Ut enim ad minim veniam, quis 
-                        nostrud exercitation ullamco laboris nisi 
-                        ut aliquip ex ea commodo consequat.</p>
-                    <div class="btn">
-                        <a href="#" class="btn">get started</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="third">
-            <div class="container">
-                <div class="line">
-                    <div class="line_title">
-                        <img src="img/logotip.png" alt="logo">
-                        <h5>Our community</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="slider">
-                        <div class="slide">
-                            <img src="img/carousel1.png" alt="slide">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="view">
+                                <img src="img/portfolio3.png">
+                                <div class="mask">
+                                    <a class="popup" href="img/popup3.png"></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="slide">
-                            <img src="img/carousel2.png" alt="slide">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="view">
+                                <img src="img/portfolio4.png">
+                                <div class="mask">
+                                    <a class="popup" href="img/popup4.png"></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="slide">
-                            <img src="img/carousel1.png" alt="slide">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="view">
+                                <img src="img/portfolio5.png">
+                                <div class="mask">
+                                    <a class="popup" href="img/popup5.png"></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="slide">
-                            <img src="img/carousel2.png" alt="slide">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="view">
+                                <img src="img/portfolio6.png">
+                                <div class="mask">
+                                    <a class="popup" href="img/popup6.png"></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="fourth">
-            <div class="container">
-                <div class="subscribe">
-                    <h3>Subscribe to us community</h3>
-                    <div class="form">
-                        <input type="email" name="email" placeholder="Your email" required >
-                        <button type="submit"><i class="fa fa-check" aria-hidden="true"></i></button>
+
+        <section>
+            <div class="forma">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h3>Stay with us</h3>
+                            <span>We ensure quailty & support</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <form>
+                                    <label>
+                                        <input type="text" name="name" placeholder="Full Name" required>
+                                    </label>
+                                    <label>
+                                        <input type="text" name="email" placeholder="Email Address" required>
+                                    </label>
+                                    <label>
+                                        <textarea name="comment" placeholder="Message"></textarea>
+                                    </label>
+                                    <div>
+                                        <a href="#" class="button">Send</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="fifth">
-            <div class="container">
-                <h3>Download it</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <div class="store">
-                    <div class="apple">
-                        <span class="store_title">apple store</span>
-                        <a href="#" class="store_logo"><div class="mask"></div><i class="fa fa-apple" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="android">
-                        <span class="store_title">play store</span>
-                        <a href="#" class="store_logo"><i class="fa fa-android" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <footer>
             <div class="container">
-                <div class="bottom">
-                    <div class="bottom_menu bottom-item">
-                        <ul>
-                            <li><a href="#">credits</a></li>
-                            <li><a href="#">privacy</a></li>
-                            <li><a href="#">our team</a></li>
-                        </ul>
-                        <span>Copyright by phototime - all right reserved</span>
+                <div class="row">
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 copyright">
+                        <span>Copyritht 2014, STRICT</span>
                     </div>
-                    <div class="bottom_logo bottom-item"">
-                        <img src="img/logotip.png" alt="logo">    
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 social">
+                        <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
         </footer>
-    <!--Javascript-->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->
-    <script src="libs/jquery-3.2.1.min.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="libs/slick/slick.min.js"></script>
-    <script src="js/slider.js"></script>
+
+    <!--<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>-->
+    <script type="text/javascript" src="libs/jquery-latest.min.js"></script>
+    <script src="libs/waypoints.min.js"></script>
+    <script src="libs/animate/animate-css.js"></script>
+    <script src="fancybox/source/jquery.fancybox.js"></script>
+    <script src="js/fancybox.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/preloader.js"></script>
+
     </body>
 </html>

@@ -7,26 +7,12 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
-	header .container .fw .top_menu ul li {
-	  padding: 0px 30px;
-	}
-	header .container .fw .top_menu ul li a {
-	  font-size: 13px;
-	}
-	header .container .fw .title h1 {
-	  font-size: 40px;
-	}
-	.third .container .line {
-		padding: 50px 10px;
-	    -webkit-flex-direction: column;
-	    -ms-flex-direction: column;
-		flex-direction: column;
-	}
+	
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
 
 	/*Disable Animation on Mobile Devices*/
 	.animated {
@@ -50,104 +36,44 @@
 		animation: none !important;
 	}
 
-	.second .container .rapresent {
-  		text-align: center;
-  		background: red;
-		background: -webkit-linear-gradient(left, #16a085 , #ccd6e2);
-		background: -o-linear-gradient(right, #16a085, #ccd6e2);
-		background: -moz-linear-gradient(right, #16a085, #ccd6e2);
-		background: linear-gradient(to right, #16a085 , #ccd6e2);
-		padding: 40px 0px; 
+	footer span {
+		margin-left: 0;
 	}
-	.second .container .rapresent h4 {
-		color: white;
-		text-shadow: 2px 2px 2px #aeb8c4;
+
+	.social {
+		text-align: center;
 	}
-	.second .container .rapresent p {
-		max-width: 430px;
-		margin: 0 auto;
-		padding: 20px 10px;
-		font-family: 'Baloo Bhaijaan', cursive;
-		color: white;
+
+	.copyright {
+		text-align: center;
 	}
+	.portfolio .main_portfolio .view:hover img {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+		}
+		/* line 152, ../sass/screen.scss */
+	.portfolio .main_portfolio .view:hover .mask {
+		opacity: 0;
+	}
+
 }
 
 @media only screen and (max-width : 630px) {
 	
-	header .container .fw .top_menu .mobile_top {
-	  	display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-flex-direction: row;
-		-ms-flex-direction: row;
-		flex-direction: row;
-		-webkit-justify-content: space-between;
-		-ms-flex-pack: justify;
-		justify-content: space-between;
-		-webkit-align-items: center;
-    	-ms-flex-align: center;
-    	align-items: center;
+	.banner h1 {
+		border-bottom: 2px solid #15a4fa;
 	}
-	header .container .fw .top_menu ul {
-    	display: none;
-    	float: right;
-    	text-align: right;
-    	position: absolute;
-    	top: 13%;
-    	right: 8%;
+	.banner span {
+		border-top: none;
 	}
-	header .container .fw .top_menu ul .desktop_logo {
-	  	display: none;
+	.forma form input {
+		width: 400px;
 	}
-	header .container .fw .top_menu ul li {
-	  padding: 5px 0;
-	}
-	header .container .fw .top_menu ul li a:hover::after {
-	  width: 0;
-	}
-	.fourth .container .subscribe h3 {
-	  font-size: 25px;
-	  letter-spacing: 2px;
-	}
-	.fourth .container .subscribe .form input {
-	  width: 200px;
-	  height: 50px;
-	}
-	.fourth .container .subscribe .form button {
-	  height: 50px;
-	  width: 50px;
-	}
-	.fifth .container p {
-	  font-size: 15px;
-	  padding: 20px 20px;
-	}
-	footer .container .bottom {
-		-webkit-flex-direction: column;
-	    -ms-flex-direction: column;
-	    flex-direction: column;
-	    -webkit-justify-content: flex-start;
-	    -ms-flex-pack: start;
-	    justify-content: flex-start;
-	    -webkit-align-items: center;
-	    -ms-flex-align: center;
-	    align-items: center;
-	}
-	footer .container .bottom .bottom_menu ul {
-	  text-align: center;
-	}
-
-	footer .container .bottom .bottom-item:nth-child(1) {
-	    -webkit-order: 2;
-	    -ms-flex-order: 2;
-	    order: 2;
-	}
-	footer .container .bottom .bottom-item:nth-child(2) {
-	    -webkit-order: 1;
-	    -ms-flex-order: 1;
-	    order: 1;
-	}
-	.third .container .line .line_title p {
-	  margin-bottom: 0px;
+	.forma form textarea {
+		width: 400px;
 	}
 }
 
@@ -155,48 +81,49 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-	header .container .fw .title h1 {
-	  font-size: 31px;
+	.banner h1 {
+		font-size: 100px;
 	}
-	/* line 115, ../sass/screen.scss */
-	header .container .fw .title p {
-	  font-size: 16px;
+	.banner span {
+		font-size: 18px;
+		padding: 5px;
 	}
-	/* line 119, ../sass/screen.scss */
-	header .container .fw .title .btn {
-	  margin: 10px 0;
+	.forma form input {
+		width: 290px;
+		height: 45px
 	}
-	/* line 122, ../sass/screen.scss */
-	header .container .fw .title .btn a {
-	  	font-size: 12px;
-	  	padding: 12px 28px;
-	}
-	.second .container .rapresent p {
-		font-size: 14px;
-	}
-	.second .container .rapresent .btn a {
-		font-size: 12px;
-	  	padding: 12px 28px;
-	}
-	.third {
-	  padding: 0px 10px;
-	}
-	.fourth .container .subscribe .form input {
-	  width: 180px;
-	  height: 45px;
-	}
-	.fourth .container .subscribe .form button {
-	  height: 45px;
-	  width: 45px;
-	}
-	.fifth .container .store .apple .store_title, .fifth .container .store .android .store_title {
-		font-size: 14px;
-	  	min-width: 175px;
+	.forma form textarea {
+		width: 290px;
+		height: 145px
 	}
 }
 
-@media only screen and (max-width : 340px) {
-
+@media only screen and (max-width : 380px) {
+	.banner h1 {
+		font-size: 80px;
+	}
+	.banner span {
+		font-size: 15px;
+	}
+	.design .design_text h2 {
+	  font-size: 30px;
+	}
+	.portfolio .portfolio_tittle h3 {
+	  font-size: 30px;
+	}
+	/* line 101, ../sass/screen.scss */
+	.portfolio .portfolio_tittle span {
+	  font-size: 17px;
+	  color: #999999;
+	}
+	.forma form input {
+		width: 250px;
+		height: 45px;
+	}
+	.forma form textarea {
+		width: 250px;
+		height: 145px;
+	}
 }
 
 /* Custom, iPhone Retina */
