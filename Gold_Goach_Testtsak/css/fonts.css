@@ -1,0 +1,18 @@
+@font-face {
+		font-family: "PTsans";
+		src: url("../fonts/pt-sans/PTS55F.ttf?#iefix")format("embedded-opentype");
+		font-style: normal;
+		font-weight: normal;
+}
+
+@font-face {
+		font-family: "Circle";
+		src: url("../fonts/Circe/CRC55.ttf?#iefix")format("embedded-opentype");
+		font-style: normal;
+		font-weight: normal;
+}
+
+@font-face {
+		font-family: "FontAwesome";
+		src: url("../fonts/FontAwesome.otf");
+}
