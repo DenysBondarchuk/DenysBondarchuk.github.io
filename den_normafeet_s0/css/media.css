@@ -1,0 +1,747 @@
+@media screen and (max-width: 1150px) {
+	.sickness_right {
+		margin-left: 35px;
+	}
+
+	.component_descr_text {
+		font-size: 15px;
+	}
+
+	.effect_list_right, .how_right {
+		margin-left: 50px;
+	}
+
+	.component_mid_img img {
+		max-width: 85%;
+	}
+
+	.component_mid_img {
+		width: 300px;
+		height: 300px;
+	}
+
+	.component_item {
+    padding: 7px 7px 7px 3px;
+    max-width: 315px;
+    margin: 25px auto 0;
+	}
+
+	.component_descr_name::before {
+		top: -7px;
+	}
+
+	.fake_right {
+		margin-left: 50px;
+	}
+
+	.scroll {
+		bottom: -215px;
+	}
+
+}
+
+@media screen and (max-width: 1060px) {
+	body br {
+		display: none;
+	}
+	.feet_action {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		letter-spacing: -0.4px;
+	}
+}
+
+@media screen and (max-width: 1147px) {
+	h1 {
+		padding-top: 20px;
+	}
+
+	.header_list_under {
+		font-size: 19px;
+	}
+
+	.header_list li {
+		margin: 25px 0;
+	}
+
+}
+
+@media screen and (max-width: 999px) {
+
+	@keyframes symptoms1 {
+		0%,30%,100% {
+			transform: scale(1.0);
+		}
+		15% {
+			transform: scale(1.1);
+		}
+	}
+
+	.feet_action_wrap {
+		display: none;
+	}
+
+	/*header*/
+	.header_feet img {
+		max-width: 90%;
+	}
+
+	.header_product {
+		top: 336px;
+		width: 325px;
+	}
+
+	.header_left::before {
+		width: 400px;
+		height: 400px;
+	}
+
+	.header_left::after {
+		width: 498px;
+		height: 498px;
+	}
+
+	.header_bullet_ul {
+		display: none;
+	}
+
+	.header_bullet {
+		display: none;
+	}
+
+	.under_h1 {
+		font-size: 20px;
+	}
+	 .header_list_under {
+	 	font-size: 16px;
+	 }
+
+	 .header_btn {
+	    max-width: 250px;
+	    font-size: 22px;
+	    margin-left: 70px;
+	}
+
+	 .header_right {
+	 	padding-left: 450px;
+	 }
+
+	 .main_btn_wrap::before {
+	 	display: none;
+	 }
+	 h1 {
+	 	font-size: 60px;
+	 }
+	/*end header*/
+	h2 {
+		font-size: 37px;
+		line-height: 40px;
+	}
+
+	.under_h2 {
+		font-size: 17px;
+		margin-top: 10px;
+	}
+
+	.symptoms_item {
+		width: 328px;
+	}
+
+	.symptoms_item_img {
+		width: 194px;
+		height: 194px;
+	}
+
+	.symptoms_item:nth-child(1) .symptoms_item_img::before, .symptoms_item:nth-child(2) .symptoms_item_img::before, .symptoms_item:nth-child(3) .symptoms_item_img::before {
+		width: 205px;
+		height: 205px;
+	}
+
+	.symptoms_item_descr p {
+		font-size: 18px;
+	}
+	.symptoms_item span {
+		font-size: 17px;
+	}
+
+	.sickness_img {
+		width: 307px;
+		height: 307px;
+	}
+
+	.sickness_img::after {
+		width: 235px;
+		height: 235px;
+	}
+
+	.sickness_img img {
+		max-width: 55%;
+	}
+
+	.sickness_right ul .sickness_right_li {
+		margin-bottom: 25px;
+	}
+
+	.sickness_descr, .effect_item_text {
+		font-size: 17px;
+	}
+
+	.sickness_right {
+		margin-top: 15px;
+	}
+
+	.scroll {
+		display: none;
+	}
+
+	.effect_list_img {
+		width: 305px;
+		height: 305px;
+	}
+
+	.effect_list_img::after {
+		width: 250px;
+		height: 250px;
+	}
+
+	.effect_list_img img.effect_product {
+		max-width: 85%;
+		right: -12%;
+	}
+
+	.effect_list_img img.effect_sale {
+    top: -66px;
+    right: 77px;
+	}
+
+	.component_mid {
+		display: none;
+	}
+
+	.component_item::after {
+		display: none;
+	}
+
+	.component_list {
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+	}
+
+	.component_item {
+		max-width: 410px;
+		min-height: 150px;
+	}
+
+	.component_left {
+		margin-right: 15px;
+	}
+
+	.slider-nav::before {
+		display: none;
+	}
+
+	.for_review p {
+		max-width: 600px;
+	}
+
+	.how_img {
+    width: 310px;
+    height: 310px
+  }
+
+  .how_img img {
+  	max-width: 85%;
+  }
+
+  .how_name {
+  	font-size: 18px;
+  }
+
+  .how_right ul .how_right_li {
+  	margin: 30px 0;
+  }
+
+  .fake_right p {
+  	margin-top: 20px;
+  }
+  .question_name, .question {
+  	min-width: 50%;
+  }
+
+  .question p, .answer p {
+		font-size: 17px;
+	}
+
+	.sec {
+		padding: 45px 0;
+	}
+
+	.section2 {
+		padding-top: 120px;
+	}
+
+	.footer_action0, .action0 {
+		opacity: 0;
+	}
+
+	.footer_action3, .action3 {
+		opacity: 1;
+		display: block;
+	}
+
+	.feet_action3 {
+		display: none;
+	}
+
+	#for_scroll2 {
+		padding-top: 0;
+	}
+
+	#for_scroll2 .header_feet img {
+		max-width: 80%;
+	}
+
+	#for_scroll2 .header_product {
+    top: 298px;
+    left: 22.5%;
+	}
+
+	.header_product {
+		width: 305px;
+	}
+		.footer_left p, .footer_mid p, .footer_right {
+			display: none;
+		}
+
+		.footer_list {
+			justify-content: center;
+			-webkit-flex-direction: column;
+			-moz-flex-direction: column;
+			-ms-flex-direction: column;
+			-o-flex-direction: column;
+			flex-direction: column;
+			-ms-align-items: center;
+			align-items: center;
+		}
+
+		.footer_left {
+			margin-bottom: 7px;
+		}
+
+	footer {
+	    padding: 100px 0 50px;
+	}
+
+	.slick-next {
+	    right: 25%;
+	    top: -30%;
+	}
+	.slick-prev {
+	    left: 25%;
+	    top: -30%;
+	}
+
+}
+@media screen and (max-width: 936px) {
+		footer {
+			padding-top: 50px;
+		}
+	.section2 {
+		padding-top: 70px;
+	}
+}
+
+@media screen and (max-width: 851px) {
+	.section2 {
+		padding-top: 40px;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+
+	footer {
+		padding: 30px 0;
+	}
+
+	.section2 {
+		padding-top: 45px !important;
+	}
+
+	.section2 h2 {
+		padding-top: 0;
+	}
+
+	.symptoms_list {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.symptoms_item::after {
+		display: none;
+	}
+
+	.symptoms_item {
+		margin-top: 30px;
+	}
+
+	.symptoms_list {
+		margin-top: 5px;
+	}
+
+	h2 {
+	    font-size: 32px;
+	    line-height: 35px;
+	}
+	.under_h2 {
+		font-size: 16px;
+	}
+
+	.sickness_list {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.sickness_descr {
+		font-size: 16px;
+	}
+
+	.sickness_right ul .sickness_right_li:nth-child(1)::before, .sickness_right ul .sickness_right_li:nth-child(2)::before, .sickness_right ul .sickness_right_li:nth-child(3)::before {
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 26px;
+		margin-left: 7px;
+	}
+
+	.sickness_right ul .sickness_right_li:nth-child(1)::after, .sickness_right ul .sickness_right_li:nth-child(2)::after, .sickness_right ul .sickness_right_li:nth-child(3)::after {
+		left: 74px;
+		top: 5px;
+	}
+
+	.sickness_right ul .sickness_right_li {
+		padding-left: 75px;
+	}
+
+	.sickness_lines {
+		display: none;
+	}
+
+	.sickness_left {
+		margin: 55px 0;
+	}
+
+	.sickness_right {
+		margin: 0 auto;
+	}
+
+	.effect_list {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.effects_lines {
+		display: none;
+	}
+
+	.effect_list_left {
+		margin-top: 25px;
+		margin-bottom: 5px;
+	}
+
+	.effect_list_right {
+		margin: 20px auto 0;
+	}
+
+	.effect_btn {
+		max-width: 290px;
+	}
+
+	.main_btn {
+		font-size: 23px;
+	}
+
+	.component_list {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+	}
+
+	.component_item {
+		min-height: auto;
+		padding: 7px;
+		margin-top: 15px;
+	}
+
+	.component_left {
+		margin: 0 0 50px 0; 
+	}
+
+	.for_review p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.for_review::before {
+		top: 3px;
+	}
+
+	.for_review {
+		padding-top: 25px;
+	}
+
+	.review_btn {
+		max-width: 285px;
+	}
+
+	.how_list {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.how_lines {
+		display: none;
+	}
+
+	.how_right {
+		margin: 0 auto;
+	}
+
+	.how_right ul .how_right_li:nth-child(1)::before, .how_right ul .how_right_li:nth-child(2)::before, .how_right ul .how_right_li:nth-child(3)::before {
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 26px;
+		margin-left: 7px;
+	}
+
+	.how_right ul .how_right_li:nth-child(1)::after, .how_right ul .how_right_li:nth-child(2)::after, .how_right ul .how_right_li:nth-child(3)::after {
+		left: 70px;
+	}
+
+	.how_right ul .how_right_li {
+		padding-left: 70px;
+	}
+
+	.order_btn {
+		max-width: 285px;
+	}
+
+	.fake_list {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.fake_right {
+		margin-left: 0;
+		padding: 0 10px 0 10px;
+	}
+
+	.fake_right h3 {
+		font-size: 34px;
+	}
+
+	.question_name_list {
+		display: none;
+	}
+
+	.question p {
+		font-weight: bold;
+	}
+
+	.question_answer {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.question_name, .question {
+		max-width: 100%;
+	}
+
+	.question {
+		padding: 25px 0 5px;
+		cursor: pointer;
+		margin-right: 0;
+	}
+	.answer {
+		padding: 15px 0 15px;
+		display: none;
+	}
+
+	.question p, .answer p {
+		font-size: 16px;
+	}
+
+	.popup-block-first,
+    .popup-block-second {
+        width: 470px;
+        left: calc(50% - 235px)
+    }
+
+    .popup-block-second {
+        padding: 30px 40px
+    }
+
+    .main_graph_desr p {
+        font-size: 15px;
+    }
+
+   .popup_list {
+   	-webkit-flex-direction: column;
+   	-moz-flex-direction: column;
+   	-ms-flex-direction: column;
+   	-o-flex-direction: column;
+   	flex-direction: column;
+   	padding: 35px 15px 20px;
+   }
+
+   .popup_left {
+   	margin-right: 0;
+   }
+
+   .header_left {
+   	display: none;
+   }
+
+   .header_right {
+   	padding-left: 0;
+   }
+
+   h1, .under_h1 {
+   	text-align: center;
+   	margin: 0 auto;
+   }
+		
+	.header_list {
+		max-width: 500px;
+		margin: 50px auto 0;
+		padding-left: 15px;
+	}
+
+	.header_btn {
+		margin: 20px auto 0;
+		max-width: 285px;
+	}
+
+	.header_product_for_mobile {
+		display: block;
+		margin: 45px auto 0;
+		text-align: center;
+		position: relative;
+		max-width: 300px;
+	}
+	.header_product_for_mobile .product_sale {
+		position: absolute;
+		top: -32px;
+		left: 36%;
+	}
+	.header_product_img {
+		max-width: 260px;
+		margin: 0 auto;
+	}
+
+	.slick-prev {
+		left: 15%;
+	}
+	.slick-next {
+		right: 15%;
+	}
+
+}
+
+@media screen and (max-width: 479px){
+	h2, .section6 h2 {
+		font-size: 27px;
+		line-height: 30px;
+	}
+
+	.sickness_name {
+		font-size: 18px;
+	}
+
+	.effect_item_img img {
+		max-width: 70%;
+	}
+
+	.effect_item_img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.effect_list_img img.effect_product {
+	    max-width: 85%;
+	    right: 0%;
+	    top: 53%;
+	}
+
+	.effect_list_img img.effect_sale {
+    top: -46px;
+    right: 95px;
+	}
+
+	.effect_list_left {
+		margin-top: 0;
+		margin-bottom: 55px;
+	}
+
+	.effect_item_descr {
+	    padding-left: 20px;
+	}
+
+	.effect_item_text {
+    font-size: 16px;
+	}
+	.fake_right p {
+		font-size: 17px;
+	}
+
+	.popup-block-first,
+    .popup-block-second {
+        width: 300px;
+        left: calc(50% - 150px)
+    }
+    .popup-block-second {
+        padding: 0 30px
+    }
+
+    .popup-p {
+    	font-size: 16px;
+    	line-height: 21px;
+    }
+
+   .slick-prev {
+		left: 7%;
+	}
+	.slick-next {
+		right: 7%;
+	}
+}
