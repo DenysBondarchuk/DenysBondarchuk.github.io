@@ -27,7 +27,7 @@ $(".footer_bullet1").click(function() {
         o = $(t).offset().top;
     $("body,html").animate({
         scrollTop: o
-    }, 1e3), $("body").css("overflow", "auto") /*$(".action0").css("opacity", "0"), $(".action1").css("opacity", "0"), $(".action2").css("opacity", "0"), $(".action3").css("opacity", "1"), $(".header_bullet1").text("+"), $(".header_bullet2").text("+"), $(".header_bullet3").text("-")*/, delta2 = 1400
+    }, 1e3), $("body").css("overflow", "auto") /*$(".action0").css("opacity", "0"), $(".action1").css("opacity", "0"), $(".action2").css("opacity", "0"), $(".action3").css("opacity", "1"), $(".header_bullet1").text("+"), $(".header_bullet2").text("+"), $(".header_bullet3").text("-"), delta2 = 1400*/
 }), $(document).ready(function() {
     $(".twelfth-btn_popup1").click(function() {
         $(".popup-container").show(), $(".popup-container").mouseup(function(e) {
