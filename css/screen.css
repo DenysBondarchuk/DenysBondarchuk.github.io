@@ -68,6 +68,7 @@ header .container a figure figcaption {
   height: 100%;
   position: absolute;
   overflow: hidden;
+  padding: 0 10px;
   top: 0;
   left: 0;
   opacity: 1;
