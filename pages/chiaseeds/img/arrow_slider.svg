@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="35" viewBox="0 0 39 35">
+    <defs>
+        <path id="f44ea" d="M1131.32 9327.64l7.35-7.3c.45-.44.45-1.16 0-1.6a1.15 1.15 0 0 0-1.62 0l-5.4 5.35v-13.95a1.14 1.14 0 1 0-2.3 0v13.95l-5.39-5.35a1.15 1.15 0 0 0-1.96.8c0 .3.11.59.34.8l7.35 7.3c.45.45 1.18.45 1.63 0z" />
+        <path id="f44eb" d="M1118 9332v-27h25v27zm20.67-11.65c.45-.45.45-1.17 0-1.61a1.15 1.15 0 0 0-1.62 0l-5.4 5.35v-13.95a1.14 1.14 0 1 0-2.3 0v13.95l-5.39-5.35a1.15 1.15 0 0 0-1.96.8c0 .3.11.59.34.8l7.35 7.3c.45.45 1.18.45 1.63 0z" />
+        <!-- <path id="f44ef" d="M1149.71 9335.6a.91.91 0 0 1-1.28 0l-5.13-5.06a.89.89 0 0 1 0-1.27.92.92 0 0 1 1.28 0l5.13 5.06c.35.35.35.92 0 1.27zm-19.23 8.4a.9.9 0 0 1-.9-.9v-5.9c0-.5.4-.9.9-.9s.9.4.9.9v5.9c0 .5-.4.9-.9.9zm-12.82-13.46l-5.12 5.05a.92.92 0 0 1-1.28 0 .89.89 0 0 1 0-1.26l5.12-5.06a.91.91 0 0 1 1.28 0c.36.35.36.91 0 1.27z" /> -->
+        <linearGradient id="f44ee" x1="1122" x2="1139" y1="9318.98" y2="9318" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#000000" />
+            <stop offset=".5" stop-color="#000000" />
+            <stop offset="1" stop-color="#000000" />
+        </linearGradient>
+        <filter id="000000" width="200%" height="200%" x="-50%" y="-50%">
+            <feGaussianBlur in="SourceGraphic" result="FeGaussianBlur1205Out" stdDeviation="2 2" />
+        </filter>
+        <mask id="f44ed">
+            <use fill="#fff" xlink:href="#f44ea" />
+        </mask>
+    </defs>
+    <g>
+        <g transform="translate(-1111 -9309)">
+            <use fill="#000000" fill-opacity=".48" stroke="#000000" stroke-opacity=".48" stroke-width="0" filter="url(#000000)" mask="url(&quot;#f44ed&quot;)" xlink:href="#f44eb" />
+            <use fill="#fff" xlink:href="#f44ea" />
+            <use fill="url(#f44ee)" xlink:href="#f44ea" />
+            <use fill="#000000" fill-opacity=".48" stroke="#000000" stroke-opacity=".48" stroke-width="0" filter="url(#000000)" mask="url(&quot;#f44ed&quot;)" xlink:href="#f44eb" />
+        </g>
+        <g transform="translate(-1111 -9309)">
+            <use fill="#b2cf5c" xlink:href="#000000" />
+        </g>
+    </g>
+</svg>
